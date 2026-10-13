@@ -1,0 +1,8 @@
+<resources>
+    <color name="odoo_purple">#714B67</color>
+
+    <style name="Theme.OdooClient" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/odoo_purple</item>
+        <item name="colorSecondary">@color/odoo_purple</item>
+    </style>
+</resources>

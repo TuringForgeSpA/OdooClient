@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Fotos temporales de la cámara antes de subirlas a Odoo. -->
+    <cache-path name="camera" path="camera/" />
+    <!-- Descargas guardadas en Android ≤ 9 (para abrirlas desde el Snackbar). -->
+    <external-path name="downloads" path="Download/" />
+</paths>

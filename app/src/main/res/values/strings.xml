@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TF Odoo</string>
+
+    <string name="setup_title">Conecta tu Odoo</string>
+    <string name="setup_subtitle">Ingresa la dirección de tu servidor Odoo 18. Puedes agregar más servidores después.</string>
+    <string name="setup_title_edit">Editar servidor</string>
+    <string name="setup_name_hint">Nombre (opcional)</string>
+    <string name="setup_name_helper">Ej.: Comercial Sur</string>
+    <string name="setup_save">Guardar</string>
+    <string name="error_duplicate">Este servidor ya está en la lista como «%1$s»</string>
+    <string name="setup_url_hint">URL del servidor</string>
+    <string name="setup_url_helper">Ej.: https://miempresa.odoo.com</string>
+    <string name="setup_connect">Conectar</string>
+    <string name="error_invalid_url">Ingresa una URL válida (http:// o https://)</string>
+    <string name="warn_not_verified_title">No pudimos verificar el servidor</string>
+    <string name="warn_not_verified">No respondió como un servidor Odoo. Revisa la URL o tu conexión. ¿Guardar de todas formas?</string>
+    <string name="warn_version_title">Versión distinta</string>
+    <string name="warn_version">El servidor reporta Odoo %1$s. Esta app está optimizada para Odoo 18. ¿Continuar?</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="error_title">No se pudo cargar Odoo</string>
+    <string name="retry">Reintentar</string>
+    <string name="change_server">Cambiar servidor</string>
+
+    <string name="picker_title">Elige un servidor</string>
+    <string name="picker_subtitle">Cada servidor mantiene su propia sesión.</string>
+    <string name="picker_add">Agregar servidor</string>
+    <string name="picker_ask_on_launch">Preguntar al abrir la app</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_title">¿Eliminar %1$s?</string>
+    <string name="delete_message">Se cerrará la sesión y se borrarán los datos locales de este servidor en el dispositivo.</string>
+    <string name="more_options">Más opciones</string>
+    <string name="servers_shortcut">Servidores</string>
+    <string name="shortcut_disabled">Este servidor fue eliminado</string>
+
+    <string name="exit_title">¿Salir de la app?</string>
+    <string name="exit_message">Conectado a %1$s</string>
+    <string name="exit_confirm">Salir</string>
+
+    <string name="choose_file">Adjuntar archivo</string>
+    <string name="downloading">Descargando desde Odoo…</string>
+    <string name="download_started">Descarga iniciada</string>
+    <string name="download_saved">%1$s guardado en Descargas</string>
+    <string name="download_failed">No se pudo descargar el archivo</string>
+    <string name="open">Abrir</string>
+    <string name="no_app_for_file">No hay una app para abrir este archivo</string>
+    <string name="no_app_for_link">No hay una app para abrir este enlace</string>
+    <string name="permission_storage_denied">Se necesita permiso de almacenamiento para descargar</string>
+</resources>

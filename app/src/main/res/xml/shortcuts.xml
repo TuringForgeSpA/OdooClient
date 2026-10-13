@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Acceso estático "Servidores" (long-press en el ícono). Los accesos por empresa son
+     dinámicos (ServerShortcuts). targetPackage debe coincidir con el applicationId. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="servers"
+        android:shortcutLongLabel="@string/servers_shortcut"
+        android:shortcutShortLabel="@string/servers_shortcut">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cl.turingforge.odooclient.ServerPickerActivity"
+            android:targetPackage="cl.turingforge.odooclient" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El WebView respeta esta configuración (Android 7+). -->
+<network-security-config>
+    <!-- Producción: solo HTTPS con CAs del sistema. -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Servidores Odoo internos por HTTP (LAN / emulador). Agrega aquí tus hosts;
+         cualquier otro http:// fallará con ERR_CLEARTEXT_NOT_PERMITTED. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+
+    <!-- Solo en debug: confiar en CAs instaladas por el usuario (certificados autofirmados, proxies). -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>
